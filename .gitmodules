@@ -7,3 +7,6 @@
 [submodule "implot"]
 	path = modules/implot
 	url = https://github.com/epezent/implot.git
+[submodule "implot-bundle"]
+	path = implot-bundle
+	url = git@github.com:The-Broker-App/implot-bundle.git
