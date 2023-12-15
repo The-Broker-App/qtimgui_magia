@@ -35,6 +35,7 @@ target_link_libraries(
     qt_imgui_quick
     PUBLIC
     imgui
+    implot
     Qt${QT_VERSION_MAJOR}::Gui
     )
 if (ANDROID)
@@ -48,6 +49,7 @@ target_link_libraries(
     qt_imgui_widgets
     PUBLIC
     imgui
+    implot
     Qt${QT_VERSION_MAJOR}::Widgets
     )
 if (ANDROID)
