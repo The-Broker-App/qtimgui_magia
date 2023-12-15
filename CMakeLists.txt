@@ -6,5 +6,5 @@ project(qtimgui_sln)
 
 # goto subs
 add_subdirectory(examples)
-add_subdirectory(modules)
+add_subdirectory(implot-bundle)
 add_subdirectory(src)
