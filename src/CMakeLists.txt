@@ -34,7 +34,6 @@ target_include_directories(qt_imgui_quick PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(
     qt_imgui_quick
     PUBLIC
-    imgui
     implot
     Qt${QT_VERSION_MAJOR}::Gui
     )
@@ -48,7 +47,6 @@ target_include_directories(qt_imgui_widgets PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(
     qt_imgui_widgets
     PUBLIC
-    imgui
     implot
     Qt${QT_VERSION_MAJOR}::Widgets
     )
